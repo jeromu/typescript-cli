@@ -1,6 +1,6 @@
 # typescript-cli
 
-Bare-minimum CLI node.js (Typescript) sample project with minimum package dependencies.
+Barebone CLI node.js (Typescript) sample project with minimum package dependencies.
 
 ## Setup
 - `./setup.sh`  (check that node.js and npm is installed and pulls required node modules)
