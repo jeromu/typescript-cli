@@ -2,15 +2,21 @@
 
 Bare-minimum CLI node.js (Typescript) sample project with minimum package dependencies.
 
+## Setup
+- `./setup.sh`  (check that node.js and npm is installed and pulls required node modules)
+
 ## Developer Scripts
 When developing, in three different terminals, run:
-- `npm run start-ts`  (automatically compile TS files)
+- `npm run start-ts`   (automatically compiles TS files)
 - `npm run watch-node` (automatically restarts node when a file changes)
 - `npm run watch-test` (automatically executes all tests when a file changes)
 
+Or, alternatively (MacOS only), run:
+- `./dev.sh` (opens and launches three terminals with the above commands)
+
 On build machine, you can run these:
-- `npm run build`  (Build this program)
-- `npm run test`  (Run tests)
+- `npm run build`  (Builds this program)
+- `npm run test`   (Runs tests)
 
 ## Running program
 
